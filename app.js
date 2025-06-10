@@ -4,12 +4,12 @@ function criaCartao (categoria, pergunta, resposta) {
 cartao.className = 'cartao'
 cartao.innerHTML = `
             <div class="cartao__conteudo"> 
-                <h3>Programacao</h3>
+                <h3>$(categoria)</h3>
                  <div class= "cartao__conteudo__pergunta"> 
-                O que é JS? 
+                <p>$(pergunta)</p> 
                  </div> 
                  <div class="cartao__conteudo__resposta"> 
-                Linguagem de Programação 
+                <p>$(resposta)</p> 
                 </div> 
                 </div>
                 `

@@ -1,7 +1,7 @@
 criaCartao(
     'Programação',
     'O que é HTML?',
-    resposta,
+    'resposta',
 )
 
 criaCartao(
@@ -11,7 +11,13 @@ criaCartao(
 )
 
 criaCartao(
-    categoria,
-    pergunta,
-    resposta,
+    'categoria',
+    'pergunta',
+    'resposta',
+)
+
+criaCartao(
+    'matematica',
+    'Qual é o número Pi',
+    '3,14',
 )
