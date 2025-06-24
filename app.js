@@ -5,12 +5,12 @@ cartao.className = 'cartao'
 cartao.innerHTML = `
             <article class="cartao">
             <div class="cartao__conteudo"> 
-                <h3>$(categoria)</h3>
+                <h3>${categoria}</h3>
                  <div class= "cartao__conteudo__pergunta"> 
-                <p>$(pergunta)</p> 
+                <p>${pergunta}</p> 
                  </div> 
                  <div class="cartao__conteudo__resposta"> 
-                <p>$(resposta)</p> 
+                <p>${resposta}</p> 
                 </div> 
                 </div>
                 </article>
@@ -19,7 +19,7 @@ cartao.innerHTML = `
                 let respostaEstaVisivel = false
                 function viraCartao(){
                     respostaEstaVisivel = !respostaEstaVisivel
-                    cartao.classlist.toggle('active',respostaEstaVisivel)
+                    cartao.classList.toggle('active',respostaEstaVisivel)
                 }
                 cartao.addEventListener('click',viraCartao)
                 container.appendChild(cartao)

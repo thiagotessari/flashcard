@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 :root {
- --text-color: #DBE4EF;
- --card-front-color: #144480;
+ --text-color: #05162b;
+ --card-front-color: #1077f5;
  --card-back-color: #00F4BF; 
 } 
 
@@ -68,7 +68,7 @@ color: var(--card-back-color);
 font-weight: 700; 
 } 
 
-.cartao:active .cartao__conteudo { 
+.cartao.active .cartao__conteudo { 
 transform: rotateY(180deg);
 }
 
