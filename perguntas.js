@@ -1,7 +1,7 @@
 criaCartao(
     'Programação',
     'O que é HTML?',
-    'resposta',
+    ' linguagem de marcação padrão usada para criar e estruturar páginas web.',
 )
 
 criaCartao(
@@ -11,9 +11,9 @@ criaCartao(
 )
 
 criaCartao(
-    'categoria',
-    'pergunta',
-    'resposta',
+    'Programação',
+    'O que é CSS?',
+    'é uma linguagem de estilo usada para descrever a apresentação de documentos HTML ',
 )
 
 criaCartao(
